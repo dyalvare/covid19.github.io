@@ -1,0 +1,35 @@
+.container {
+  min-height: 80vh;
+}
+section {
+  margin-bottom: 3rem;
+}
+
+body {
+  background-image: radial-gradient(#d7d4ff 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+img {
+  width: calc(100% + 1rem);
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+h5 {
+  margin-top: 2rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.form-group {
+  margin-bottom: 0.5rem;
+}
